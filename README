@@ -1,5 +1,5 @@
 Разговорные чат-бот для общения в Telegram
-
+'''
 import logging
 from telegram import Update, ReplyKeyboardRemove
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler, ContextTypes
@@ -133,6 +133,7 @@ def main() -> None:
 
     # Запуск бота
     application.run_polling()
+'''
 
 if __name__ == "__main__":
     main()
